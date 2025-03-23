@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Gotham Book";
+    src: url("fonts/gothbook.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Gotham Bold";
+    src: url("fonts/gothbold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Nintendo Switch UI";
+    src: url("fonts/nintendo.ttf") format("truetype");
+}
+
+body {
+    overflow-x: hidden;
+    height: 100vh;
+    font-family: "Gotham Book", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, strong, b {
+    font-family: "Gotham Bold", sans-serif;
+}
+
+.nintendo-switch {
+    font-family: "Nintendo Switch UI", sans-serif;
+}
